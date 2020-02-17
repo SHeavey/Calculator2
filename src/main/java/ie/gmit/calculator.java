@@ -1,12 +1,9 @@
 package ie.gmit;
 
 public class calculator {
+    static int firstNum = 4;
+    static int secondNum = 0;
 
-    public static void main(String[] args){
-        int firstNum = 5;
-        int secondNum = 7;
-        int sum;
-    }
     // This method will add two numbers
     static int Addsum(int firstNum,int secondNum) {
         return firstNum+secondNum;
